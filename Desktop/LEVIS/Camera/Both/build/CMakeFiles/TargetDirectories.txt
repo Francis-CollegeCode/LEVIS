@@ -1,0 +1,3 @@
+/home/pi/Desktop/LEVIS/Camera/Both/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/LEVIS/Camera/Both/build/CMakeFiles/ThreadBoth.dir
+/home/pi/Desktop/LEVIS/Camera/Both/build/CMakeFiles/edit_cache.dir

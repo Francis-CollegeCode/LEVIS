@@ -1,0 +1,18 @@
+{
+	"IMG_DIR":"home/pi/Desktop/LEVIS/Camera/Thermal/nickelpics/*.jpg",
+	"IMG_TYPE":"thermal",
+	"IMG_FORMAT":".jpg",
+	"BOARD_TYPE":"wired",
+	"TEMPLATE_DIR" : "/home/pi/Desktop/LEVIS/Camera/Thermal/Template/Template.png",
+	"TEMPLATE_FORMAT":".jpg",
+	"EXTRACT_TEMPLATE":1,
+	"TEMPLATE_SIZE":26,
+	"BOARD_ROW":5,
+	"BOARD_COL":7,
+	"MATCH_THRESH":0.9,
+	"VISUALIZE":1,
+	"SAVE_UNDISTORT_IMG":1,
+	"SAVE_CALIB_RESULT" :1,
+	"RESULT_DIR":""
+
+}

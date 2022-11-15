@@ -1,0 +1,2 @@
+/home/pi/Desktop/LEVIS/Dimeji/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/LEVIS/Dimeji/CMakeFiles/edit_cache.dir
