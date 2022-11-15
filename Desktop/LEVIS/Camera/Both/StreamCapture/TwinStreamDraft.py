@@ -16,19 +16,19 @@ data_coords = []
 FIFO = "/home/pi/Desktop/LEVIS/Camera/Both/StreamCapture/mypipe"
 
 
-# #turn on RGB
-# def RGBCam_capture():
-#     cv2.imwrite('RGBPic.png',frame)
-#     detect()
-#     print("Captured RGB")
+#turn on RGB
+def RGBCam_capture():
+    cv2.imwrite('RGBPic.png',frame)
+    detect()
+    print("Captured RGB")
 #     
-# # #turn on the thermal camera
-# def ThermalCam_capture():
-#     os.system("./Demo_Revised -tl 3")
-#     print("Captured Thrml")
+# #turn on the thermal camera
+def ThermalCam_capture():
+    os.system("./Thermal_Capture -tl 3")
+    print("Captured Thrml")
 # 
-# p1 = multiprocessing.Process(target=RGBCam_capture)
-# p2 = multiprocessing.Process(target=ThermalCam_capture)
+p1 = multiprocessing.Process(target=RGBCam_capture)
+p2 = multiprocessing.Process(target=ThermalCam_capture)
 
 
 

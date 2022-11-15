@@ -391,10 +391,15 @@ void LeptonThread::run()
 					for (int j = 0; j<5;j++){
 						//printf("column: %d  row %d\n", column, row);
 						if (row == xArray[j] && column == yArray[j]){ //xArray[i].asInt(), yArray[i].asInt()
+							if (j == 0)
+								printf("\n");
+							
 							printf("Pixel (%d, %d) = %.2f K, or %.2f F      \n", row,column,tempK,tempF);	
 							myImage.setPixel(row,column, c);	
 						}
+						
 					}
+					
 					
 					
 				}
@@ -422,10 +427,6 @@ void LeptonThread::run()
 
 			} while (access(image_name, F_OK) == 0);
 			*/
-			
-			QPixmap francisPixmap = QPixmap::fromImage(myImage);
-			francisPixmap.save(QString("single_screenshot.jpg"));
-			//passed = true;
 		}
 	}
 	

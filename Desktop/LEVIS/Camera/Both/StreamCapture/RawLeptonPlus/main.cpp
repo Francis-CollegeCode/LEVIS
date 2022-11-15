@@ -122,7 +122,7 @@ int main( int argc, char **argv )
 
 	//create a FFC button
 	QPushButton *button1 = new QPushButton("Perform FFC", myWidget);
-	button1->setGeometry(320/2-50, 290-45, 100, 30);
+	button1->setGeometry(320/2-50, 290-35, 100, 30);
 	
 
 	//create a thread to gather SPI data
@@ -142,7 +142,7 @@ int main( int argc, char **argv )
 	thread->start();
 	
 	
-	//myWidget->show();
+	myWidget->show();
 
 	return a.exec();
 }
